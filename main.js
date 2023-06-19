@@ -24,7 +24,7 @@ window.onload = (e)=>{
 			if(code){
 				drawRect(code.location);// Rect
 				msg.innerText = code.data;// Data
-				location.href = code.date;
+				location.href = code.data;
 			}else{
 				msg.innerText = "Detecting QR-Code...";
 			}
